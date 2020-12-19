@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Back"
+        android:id="@+id/BackBtn"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/backward"/>
+
+    <item android:title="Forward"
+        android:id="@+id/ForwardBtn"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/forward"/>
+
+    <item android:title="Refresh"
+        android:id="@+id/refresh"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/refresh"/>
+
+
+    <item android:title="History"
+        android:id="@+id/HistoryBtn"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/history"
+        android:background="@drawable/history"
+        app:actionViewClass="android.widget.Spinner" />
+
+    <item android:title="Bookmark"
+        android:id="@+id/BookmarkSiteBtn"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/bookmarks"/>
+
+    <item android:title="Bookmarks"
+        android:id="@+id/BookmarksBtn"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/bookmarks"/>
+
+
+</menu>

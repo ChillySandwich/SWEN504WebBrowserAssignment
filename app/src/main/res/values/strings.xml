@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="URL"></string>
+    <string name="search">Go</string>
+    <string name="Address" />
+    <string name="ForwardBtn" />
+    <string name="BackBtn" />
+    <string name="newTab" />
+    <string name="history">History</string>
+    <string name="testcase">This is a test</string>
+    <string name="testURL">This is a test URL</string>
+    <string name ="item_clicked">You clicked this item</string>
+    <string name="clear_browsing_data">Clear Browsing Data</string>
+    <string name="spinner_title">Spinner</string>
+</resources>
